@@ -2,9 +2,9 @@
 # 3. Задайте список из n чисел, заполненный по формуле (1 + 1/n) ** n и выведите на экран их сумму.
 # in              out
 # 6               [2.0, 2.25, 2.37, 2.441, 2.488, 2.522]
-# sum             14.071
+#                 14.071
 
-def fun_1_list_and_sum():
+def euler_num_series_and_sum():
     
     n = int(input('Enter your integer number, please: '))
     lst_n = []
@@ -17,7 +17,8 @@ def fun_1_list_and_sum():
     
     return lst_n, sum_nums
     
-lst_n, sum_nums = fun_1_list_and_sum()
+lst_n, sum_nums = euler_num_series_and_sum()
+
 print()
 print('Result list:', lst_n, ', their sum:', sum_nums)
 print()
